@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <title>Lily Brazell</title>
+     <link rel="stylesheet" href="style.css">
+     <script src = "script-6.js"> </script>
+ <link rel="shortcut icon" href="http://serresriel.com/images/icone_b.png"/>
+</head>
+
+<body>
+  <link rel="stylesheet" href="style.css">
+<div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+      <a href="HomePage.html">Home Page</a>
+        <a href="Jukebox.html">Jukebox</a>
+        <!-- <a href="Obamicon.html">Obamicon</a> -->
+        <a href="Paddle Ball.html">Paddle Ball</a>
+        <a href="Pig.html">Pig</a>
+        <a href="TextAdventure.html">Text Adventure</a>
+      </div>
+    </div>
+    
+  <h1>Obamicon</h1>
+<a href= "HomePage.html">Return to Home Page</a>
+    <br>
+  <a href= "GWC.html">Return to GWC</a>
+  <br>
+  <h2>Design Critieria</h2>
+  
+  <p>
+    Recreate an image like the one artist Shepard Fairey created during the 2008 Presidential Campaign.To recreate an image look at each pixel’s RGB, or red green blue, values.  If a color has high values for all three colors, it is close to white. If there are low values, it’s close to black. If you add all the values together,you get a number that correlates to how “light” the color is. Lighter colors get colorized yellow. Medium/light colors get coded as light blue. Medium/dark colors are red and very dark colors get coded as dark blue.</p>
+  
+  <h3>Design Constraints</h3>
+  <p>
+    Get the intensity of each pixel by adding the red, green and blue values. If the pixel has low intensity  less than 182 color it dark blue.If the pixel is medium/low intensity, between 182 and 364 color it red. If the pixel is medium/high intensity,between 364 and 546, color it light blue. If the pixel is high intensity, >546 color it yellow. The RGB codes for the colors are as follows: darkBlue = (0, 51, 76), red = (217, 26, 33), lightBlue = (112, 150, 158)○yellow = (252, 227, 166) A image library is needed for this assignment. We are using Pillow. </p>
+  
+  <h4> Procedure </h4>
+
+  <img src="Images/Obama1.PNG" alt="Obama1"     style="width:400px;height:400px;">
+  
+  <p>
+    Line 1 shows that I am using the Pillow Image Library.
+ I then wrote out the colors for the constraints as well as a few others that I want to use later.The extra colors will not be used in this activity.I then opened the image of Bernie Sanders that I had saved. Here I got all the data from the pictures. The data shows up as pixel data.
+    I put the data in a list.
+  </p>
+
+  <img src="Images/Obama2.PNG" alt="Obama2"     style="width:650px;height:550px;">
+  
+  <p>Line 33 shows that I created the function colorize. When I all on the function on line 49, it will check the for loop on line 35 and add the intensity together. The if statements following the the for loop show how it will check the colors intensity and change it to a new color. </p>
+  
+  <img src="Images/Obama3.PNG" alt="Obama3"     style="width:550px;height:400px;">
+  
+  <p>
+    Here is the original picture to the left and below is the new picture. 
+  </p>
+
+  <img src="Images/Obama4.PNG" alt="Obama4"     style="width:550px;height:400px;">
+  
+  <p>
+    Picture from:
+    Crotty, James Marshall. "The Knockout Blow Bernie Sanders Refuses to Deliver." The Huffington Post. TheHuffingtonPost.com, n.d. Web. 08 July 2016.
+  </p>
+
+</body>
+</html>

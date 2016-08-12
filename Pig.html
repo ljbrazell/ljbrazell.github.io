@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+     <link rel="stylesheet" href="style.css">
+     <script src = "script-6.js"> </script>
+    <title>Lily Brazell</title>
+     <link rel="shortcut icon" href="http://serresriel.com/images/icone_b.png"/>
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css">
+<div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+      <a href="HomePage.html">Home Page</a>
+        <a href="Jukebox.html">Jukebox</a>
+        <a href="Obamicon.html">Obamicon</a>
+        <a href="Paddle Ball.html">Paddle Ball</a> 
+        <!-- <a href="Pig.html">Pig</a> -->
+        <a href="TextAdventure.html">Text Adventure</a>
+      </div>
+    </div>
+    <h1>Pig</h1>
+    <a href= "HomePage.html">Return to Home Page</a>
+    <br>
+    <a href= "GWC.html">Return to GWC</a>
+    <br>
+
+    <h2>Design Critieria</h2>
+
+    <p> Objective is to learn about if-else statements. Design a program to play the game Pig.
+    </p>
+
+    <h3>Design Constraints</h3>
+    <p>Rules of Pig:
+      Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player holds and scores the sum of the rolls (i.e. the turn total). At any time during a player's turn, the player is faced with two options: Roll or Hold.
+       Roll: If the player rolls a 1, the player scores nothing for this turn, and it becomes the next player's turn.
+      If the player rolls a number 2 - 6, the number on the die is added to the player's turn total, and the player's turn continues.
+      Hold:
+      The player’s turn total is added to the player's overall score, and it becomes the next player's turn.
+      The first player to score 100 or more points wins.
+    </p>
+
+    <h4> Procedure </h4>
+
+    <img src="Images/Pig%20Pic1.PNG" alt="Pig1"     style="width:400px;height:400px;">
+
+    <p>
+      When it starts, the program will set all variables but the turn to 0. Turn will be 1. 
+
+      When it is someone's turn, it'll roll the dice and and show what number it landed on. 
+    </p>
+
+    <img src="Images/Pig%20Pic2.PNG" alt="Pig2"     style="width:650px;height:550px;">
+
+    <p> When playing with two players, it'll do what the comments on the left say. If the 'When I receive Hold' is connected to the right set of blocks, it includes a third player. </p>
+
+    <img src="Images/Pig%20Pic3.PNG" alt="Pig3"     style="width:550px;height:400px;">
+
+    <p>
+      This set of blocks is necessary if you want the computer to play. 
+    </p>
+
+    <img src="Images/Pig%20Pic4.PNG" alt="Pig4"     style="width:550px;height:400px;">
+
+    <p>
+      As part of the rules, the winner is the player who gets to 100 or more points. The game will play until player 1 or 2 reaches 100.
+    </p>
+    
+    <img src="Images/Pig%20Pic5.PNG" alt="Pig5"     style="width:550px;height:400px;">
+    
+    <p>
+      When the hold button is clicked, it will broadcast Hold. Once Hold is received, it will move on to the next player.
+    </p>
+    <img src="Images/Pig%20Pic6.PNG" alt="Pig6"     style="width:550px;height:400px;">
+    <p>
+      When the button Roll is clicked, it will broadcast Roll. Once roll is received it will roll the dice and generate a new number.
+    </p>
+    
+    <img src="Images/Pig%20Pic7.PNG" alt="Pig7"     style="width:550px;height:400px;">
+    
+
+    <p>
+      Here is the final product. As you can see, there is a Hold and Roll button, as well as a dice. The boxes with numbers in the orange are the variables that are set in the block-code. They show/keep track of the scores and turn for you. 
+    </p>
+    <h5>
+      Errors
+    </h5>
+    <p>
+      I had errors occur when trying to add a third player and the computer.
+    </p>
+  </body>
+</html>

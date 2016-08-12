@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+     <link rel="stylesheet" href="style.css">
+     <script src = "script-6.js"> </script>
+
+    <title>Lily Brazell</title>
+     <link rel="shortcut icon" href="http://serresriel.com/images/icone_b.png"/>
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css">
+<div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+      <a href="HomePage.html">Home Page</a>
+        <a href="Jukebox.html">Jukebox</a>
+        <a href="Obamicon.html">Obamicon</a>
+        <!-- <a href="Paddle Ball.html">Paddle Ball</a> -->
+        <a href="Pig.html">Pig</a>
+        <a href="TextAdventure.html">Text Adventure</a>
+      </div>
+    </div>
+    <h1>Paddle Ball</h1>
+    <a href= "HomePage.html">Return to Home Page</a>
+    <br>
+    <a href= "GWC.html">Return to GWC</a>
+    <br>
+
+    <h2>Design Critieria</h2>
+
+    <p>Objective is to learn about if-statements and loops. Paddle ball is a game in which a ball bounces around a window, and the player moves a paddle back and forth across the screen to try and keep the ball up in the air. The game Paddle ball consists of a ball falling and using the paddle to bounce it off of.
+     </p>
+
+    <h3>Design Constraints</h3>
+    <p>When the ball hits the paddle, the paddle should change into something else.
+      Move right to left.
+      The ball must disappear when you lose.
+      The ball bounce back when touching the paddle and edges of the screen.
+     </p>
+
+    <h4> Procedure </h4>
+<p>
+  Here was our planning process. We had to figure out how many sprites to use and their functions for that game. Then begin writing pseudo code for it.
+    </p>
+    <img src="Images/Paddleball%20Pic1.PNG" alt="Obama1"     style="width:400px;height:400px;">
+
+    <p>In the project, I chose the magic carpet to represent my paddle. 
+
+      My code tells my sprite to go to the position when the game starts and sets the score to 0.
+
+      If the right arrow is pressed, the magic carpet moves to the right 25 steps. 
+      If the left arrow is pressed, the magic carpet moves to the left 25 steps.
+      If the magic carpet touches the ball, the magic carpet changes into a dragon.
+
+      The if-statements are all in a forever loop, so it continues until the program is turned off.
+
+      On the right, I have blocks that make the magic carpet move with your mouse if the player does not like the keys. The only thing wrong with it is that it follows the mouse up and down as well so it breaks the rules of the game.
+     
+    </p>
+
+    <img src="Images/Paddleball%20Pic2.PNG" alt="Obama2"     style="width:650px;height:550px;">
+
+    <p>This represents the code for the second sprite, the ball.When the space is presses it drops the ball from the top of the screen.It will bounce off the edges and the paddle (magic carpet). It is inside a repeat until loop that will play until the ball falls below the magic carpet indicating that the player died. </p>
+
+    <img src="Images/Paddleball%20Pic3.PNG" alt="Obama3"     style="width:550px;height:400px;">
+
+    <p>Here is a picture of it playing. After the ball hits the magic carpet, it turns into the dragon.
+      
+    </p>
+
+    <img src="Images/Paddleball%20Pic4.PNG" alt="Obama4"     style="width:550px;height:400px;">
+<h5>
+  Errors
+    </h5>
+    <p>
+      I had errors occur while trying to make the ball bounce around randomly. I fixed it through trial and error.
+    </p>
+
+  </body>
+</html>
